@@ -1,0 +1,83 @@
+* {
+  padding: 0.2rem;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url("../images/backgound image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* transparent white */
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  width: 400px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #3498db;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Weather result styles */
+.cityName,
+.temp,
+.humidity,
+.wind_speed,
+.clouds {
+  margin-top: 0.6rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.result-container {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+.author-name {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555;
+  font-size: 10px;
+  font-family: Arial, sans-serif;
+}
